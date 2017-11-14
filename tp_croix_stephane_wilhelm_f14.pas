@@ -42,7 +42,7 @@ BEGIN
 		for j := 0 to taille do
 		begin
 			if (i = j) or (j = taille - i) then //Ici on indique au programme ou placer les symboles et où placer les espaces
-				write('x')
+				write(symbole)
 			else
 				write(' ');
 		end;
